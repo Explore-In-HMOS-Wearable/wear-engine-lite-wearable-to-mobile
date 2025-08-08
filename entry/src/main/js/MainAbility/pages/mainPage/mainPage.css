@@ -1,0 +1,64 @@
+.container {
+    display: flex;
+    width: 100%;
+    height: 1200px;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+}
+
+.button-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 5%;
+    align-items: center;
+    justify-content: center;
+}
+
+.sendMessageBtn {
+    width: 40%;
+    margin-bottom: 1%;
+    border-radius: 12px;
+    margin-left: 5px;
+    height: 100%;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    background-color: #ff5a1592;
+}
+
+.sendMessageBtn:active {
+    background-color: #ff692594;
+}
+
+.info-message-wrapper{
+    width: 100%;
+    height: 120px;
+    padding: 10px 50px;
+    background-color: #ff2f2f2f;
+    margin-top: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.receiveMessageText {
+    width: 80%;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+}
+
+.sendMessageText {
+    width: 80%;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+}
+
+.title {
+    margin: 18px;
+    height: 5%;
+    font-size: 22px;
+    text-align: center;
+}

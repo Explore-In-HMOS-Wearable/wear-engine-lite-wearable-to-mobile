@@ -1,0 +1,13 @@
+<div class="container" onswipe="swipeEvent">
+    <text class="title"> Send Message\n with Wear Engine </text>
+    <div class="button-wrapper">
+        <text class="sendMessageBtn" onclick="sendMessage">Send Message</text>
+        <text class="sendMessageBtn" onclick="sendFile">Send File</text>
+    </div>
+    <div class="info-message-wrapper">
+        <text class="receiveMessageText">Received Message: {{ receiveMessage }}</text>
+    </div>
+    <div class="info-message-wrapper">
+        <text class="sendMessageText">Info Message: {{ infoMessage }}</text>
+    </div>
+</div>
